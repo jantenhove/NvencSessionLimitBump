@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Nvenc">
+      <UniqueIdentifier>{a3817967-a54c-49ec-a7d7-e8de1a88ef57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NvencSessionLimitBump.cpp" />
+    <ClCompile Include="NvEncoder.cpp">
+      <Filter>Nvenc</Filter>
+    </ClCompile>
+    <ClCompile Include="NvEncoderCuda.cpp">
+      <Filter>Nvenc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NvCodecUtils.h">
+      <Filter>Nvenc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEncodeAPI.h">
+      <Filter>Nvenc</Filter>
+    </ClInclude>
+    <ClInclude Include="NvEncoder.h">
+      <Filter>Nvenc</Filter>
+    </ClInclude>
+    <ClInclude Include="NvEncoderCuda.h">
+      <Filter>Nvenc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
