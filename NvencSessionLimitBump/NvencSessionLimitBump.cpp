@@ -93,7 +93,7 @@ int main(int argc, char **argv)
 	   "Print help and exit", 0},
 	 {
 	   "gpu", {"-g", "--gpu"},
-	   "The GPU id to disable the limit on (default: all)", 1},
+	   "The GPU id to bump the limit on (default: all)", 1},
 	 {
 	   "sessions", {"-s", "--sessions"},
 	   "The number of encoding sessions to unlock (default: 32)", 1},
